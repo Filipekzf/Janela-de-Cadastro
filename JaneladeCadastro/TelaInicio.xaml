@@ -107,7 +107,7 @@
                     </Button>
 
                     <Button
-                        Visibility="Collapsed"
+                        Visibility="Visible"
                         x:Name="btnGerenciarRegistro"
                         Grid.Row="0"
                         Width="342"
@@ -158,7 +158,7 @@
 
                     <Button
                         x:Name="btnAdicionarRegistro"
-                        Grid.Row="1"
+                        Grid.Row="2"
                         Width="342"
                         Height="200"
                         Padding="0"

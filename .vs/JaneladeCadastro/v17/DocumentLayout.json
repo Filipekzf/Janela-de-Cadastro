@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\",
+  "WorkspaceRootPath": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|c:\\users\\4sec\\source\\repos\\janeladecadastro\\janeladecadastro\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|solutionrelative:janeladecadastro\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|c:\\users\\4sec\\source\\repos\\janeladecadastro\\janeladecadastro\\telainicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|solutionrelative:janeladecadastro\\telainicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|c:\\users\\4sec\\source\\repos\\janeladecadastro\\janeladecadastro\\telainicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|c:\\users\\4sec\\desktop\\projetos\\janela-de-cadastro\\janeladecadastro\\telainicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|solutionrelative:janeladecadastro\\telainicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|c:\\users\\4sec\\source\\repos\\janeladecadastro\\janeladecadastro\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|c:\\users\\4sec\\desktop\\projetos\\janela-de-cadastro\\janeladecadastro\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|solutionrelative:janeladecadastro\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|c:\\users\\4sec\\desktop\\projetos\\janela-de-cadastro\\janeladecadastro\\telainicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|solutionrelative:janeladecadastro\\telainicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|c:\\users\\4sec\\desktop\\projetos\\janela-de-cadastro\\janeladecadastro\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6179BB35-5500-4755-9FE6-9BFA40F78174}|JaneladeCadastro\\JaneladeCadastro.csproj|solutionrelative:janeladecadastro\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,11 +34,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TelaInicio.xaml",
-              "DocumentMoniker": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\JaneladeCadastro\\TelaInicio.xaml",
+              "DocumentMoniker": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\JaneladeCadastro\\TelaInicio.xaml",
               "RelativeDocumentMoniker": "JaneladeCadastro\\TelaInicio.xaml",
-              "ToolTip": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\JaneladeCadastro\\TelaInicio.xaml",
+              "ToolTip": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\JaneladeCadastro\\TelaInicio.xaml",
               "RelativeToolTip": "JaneladeCadastro\\TelaInicio.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-30T19:02:05.44Z",
@@ -46,24 +46,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TelaInicio.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\JaneladeCadastro\\TelaInicio.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\JaneladeCadastro\\TelaInicio.xaml.cs",
               "RelativeDocumentMoniker": "JaneladeCadastro\\TelaInicio.xaml.cs",
-              "ToolTip": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\JaneladeCadastro\\TelaInicio.xaml.cs",
+              "ToolTip": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\JaneladeCadastro\\TelaInicio.xaml.cs",
               "RelativeToolTip": "JaneladeCadastro\\TelaInicio.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T19:02:06.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T19:02:06.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\JaneladeCadastro\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\JaneladeCadastro\\MainWindow.xaml",
               "RelativeDocumentMoniker": "JaneladeCadastro\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\JaneladeCadastro\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\JaneladeCadastro\\MainWindow.xaml",
               "RelativeToolTip": "JaneladeCadastro\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-13T13:45:25.023Z",
@@ -73,14 +72,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\JaneladeCadastro\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\JaneladeCadastro\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "JaneladeCadastro\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\4Sec\\source\\repos\\JaneladeCadastro\\JaneladeCadastro\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\4Sec\\Desktop\\Projetos\\Janela-de-Cadastro\\JaneladeCadastro\\MainWindow.xaml.cs",
               "RelativeToolTip": "JaneladeCadastro\\MainWindow.xaml.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAUwBUCAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:45:21.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T13:45:21.294Z"
             }
           ]
         }

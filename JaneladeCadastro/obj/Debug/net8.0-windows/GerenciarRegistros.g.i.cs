@@ -89,7 +89,7 @@ namespace JaneladeCadastro {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JaneladeCadastro;component/gerenciarregistros.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JaneladeCadastro;V1.0.0.0;component/gerenciarregistros.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GerenciarRegistros.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

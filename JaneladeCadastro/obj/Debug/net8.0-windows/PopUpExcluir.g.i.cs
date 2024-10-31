@@ -81,7 +81,7 @@ namespace JaneladeCadastro {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JaneladeCadastro;component/popupexcluir.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JaneladeCadastro;V1.0.0.0;component/popupexcluir.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PopUpExcluir.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

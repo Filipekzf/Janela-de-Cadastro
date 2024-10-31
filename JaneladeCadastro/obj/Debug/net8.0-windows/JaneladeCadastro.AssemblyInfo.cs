@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JaneladeCadastro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84b5fe1af93d1790a21c1dd70759927f0b5e5e94")]
 [assembly: System.Reflection.AssemblyProductAttribute("JaneladeCadastro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JaneladeCadastro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -105,7 +105,7 @@ namespace JaneladeCadastro {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/JaneladeCadastro;component/telainicio.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/JaneladeCadastro;V1.0.0.0;component/telainicio.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TelaInicio.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

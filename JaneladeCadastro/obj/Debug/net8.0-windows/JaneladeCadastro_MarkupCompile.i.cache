@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\4Sec\source\repos\JaneladeCadastro\JaneladeCadastro\obj\Debug\net8.0-windows\
+C:\Users\4Sec\Desktop\Projetos\Janela-de-Cadastro\JaneladeCadastro\obj\Debug\net8.0-windows\
 JaneladeCadastro
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\4Sec\source\repos\JaneladeCadastro\JaneladeCadastro\App.xaml
+C:\Users\4Sec\Desktop\Projetos\Janela-de-Cadastro\JaneladeCadastro\App.xaml
 51146149008
 
 12386693529
 246-1486238716
 GerenciarRegistros.xaml;Icons.xaml;MainWindow.xaml;PopUpExcluir.xaml;TelaInicio.xaml;
 
-True
+False
 
