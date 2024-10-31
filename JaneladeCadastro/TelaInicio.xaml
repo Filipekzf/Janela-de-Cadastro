@@ -1,0 +1,203 @@
+﻿<Window
+    x:Class="JaneladeCadastro.TelaInicio"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:JaneladeCadastro"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="TelaInicio"
+    Width="684"
+    Height="413"
+    AllowsTransparency="True"
+    Background="Transparent"
+    FontFamily="{StaticResource ItimFont}"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+
+    <Border
+        Background="#2E2E39"
+        CornerRadius="15"
+        MouseDown="Border_MouseDown">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Border
+                Grid.Column="0"
+                Background="#17141D"
+                CornerRadius="15,0,0,15">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Image
+                        Grid.Row="0"
+                        Width="80"
+                        Height="77"
+                        Margin="0,19,0,0"
+                        Source="{StaticResource IconeHome}" />
+
+                    <TextBlock
+                        Grid.Row="1"
+                        HorizontalAlignment="Center"
+                        FontSize="25"
+                        Foreground="White"
+                        Text="Bem Vindo!" />
+
+                    <TextBlock
+                        Grid.Row="2"
+                        Margin="0,30,0,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        FontSize="15"
+                        Foreground="#959494"
+                        TextAlignment="Center">
+                        Sou seu assistente para cadastro e<LineBreak />
+                        gerenciamento de dados.<LineBreak />
+                        Como posso ajudar você hoje?</TextBlock>
+                </Grid>
+            </Border>
+            <Border Grid.Column="1" CornerRadius="15,0,0,15">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Button
+                        x:Name="btnClose"
+                        Width="25"
+                        Height="25"
+                        Padding="0"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Panel.ZIndex="5"
+                        materialDesign:ButtonAssist.CornerRadius="10"
+                        materialDesign:ElevationAssist.Elevation="Dp0"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="0"
+                        Click="btnClose_Click">
+                        <materialDesign:PackIcon Foreground="White" Kind="WindowClose" />
+                    </Button>
+                    <Button
+                        x:Name="btnMinimize"
+                        Width="25"
+                        Height="25"
+                        Margin="0,0,25,0"
+                        Padding="0"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Panel.ZIndex="5"
+                        materialDesign:ElevationAssist.Elevation="Dp0"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="0"
+                        Click="btnMinimize_Click">
+                        <materialDesign:PackIcon Foreground="White" Kind="Minus" />
+                    </Button>
+
+                    <Button
+                        Visibility="Collapsed"
+                        x:Name="btnGerenciarRegistro"
+                        Grid.Row="0"
+                        Width="342"
+                        Height="200"
+                        Padding="0"
+                        materialDesign:ButtonAssist.CornerRadius="0,10,0,0"
+                        materialDesign:ElevationAssist.Elevation="Dp0"
+                        Background="#2E2E39"
+                        BorderThickness="0"
+                        Click="btnGerenciarRegistro_Click"
+                        Focusable="False"
+                        Foreground="Transparent"
+                        MouseEnter="Button_MouseEnter"
+                        MouseLeave="Button_MouseLeave">
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <TextBlock
+                                Grid.Row="0"
+                                FontSize="20"
+                                Foreground="#ffffff"
+                                Text="Gerenciar Registros"
+                                TextAlignment="Center" />
+                            <TextBlock
+                                x:Name="txtGerenciar"
+                                Grid.Row="1"
+                                Margin="0,20,0,0"
+                                FontSize="16"
+                                Foreground="#959494"
+                                TextAlignment="Center"
+                                Visibility="Collapsed">
+                                Visualize e edite os registros existentes de<LineBreak />
+                                usuários. Atualize informações como<LineBreak />
+                                nome, CPF, endereço ou telefones de<LineBreak />
+                                forma rápida e eficiente.</TextBlock>
+                        </Grid>
+                    </Button>
+
+                    <Grid
+                        Grid.Row="1"
+                        Width="250"
+                        Height="2"
+                        Background="#ffffff" />
+
+                    <Button
+                        x:Name="btnAdicionarRegistro"
+                        Grid.Row="1"
+                        Width="342"
+                        Height="200"
+                        Padding="0"
+                        materialDesign:ButtonAssist.CornerRadius="0,0,10,0"
+                        materialDesign:ElevationAssist.Elevation="Dp0"
+                        Background="#2E2E39"
+                        BorderThickness="0"
+                        Click="btnAdicionarRegistro_Click"
+                        Foreground="Transparent"
+                        MouseEnter="Button_MouseEnter_1"
+                        MouseLeave="Button_MouseLeave_1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <TextBlock
+                                Grid.Row="0"
+                                FontSize="20"
+                                Foreground="#ffffff"
+                                Text="Adicionar Registros"
+                                TextAlignment="Center" />
+                            <TextBlock
+                                x:Name="txtAdicionar"
+                                Grid.Row="1"
+                                Margin="0,20,0,0"
+                                FontSize="16"
+                                Foreground="#959494"
+                                TextAlignment="Center"
+                                Visibility="Collapsed">
+                                Crie um novo registro de usuário com<LineBreak />
+                                uinformações como nome, CPF, endereço e<LineBreak />
+                                telefones. Adicione facilmente novos<LineBreak />
+                                usuários ao sistema.</TextBlock>
+                        </Grid>
+                    </Button>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>
